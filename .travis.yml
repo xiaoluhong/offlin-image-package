@@ -15,5 +15,5 @@ services:
 before_install:
   - sudo apt-get update
   - sudo pip install shyaml
-  - sudo apt-get install jq curl gettext-base sed
+  - sudo apt-get install jq curl gettext-base sed gzip
   - chmod +x rancher-save-images.sh

@@ -1,5 +1,5 @@
 FROM alpine
 
-ADD *.tgz /home/rancher-images
+ADD images /home/images
 
 CMD sh
